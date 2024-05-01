@@ -3,7 +3,7 @@
 $consumerKey = "GaAZ3U19yYVdInPkI4xf1oJerANxK0k1WXMIXcbACALvw0qJ";
 $consumerSecret = "hVC2QvGeiquKW913lRAef6JmGUzeZEUaTFhtqgRL9LnBzTnG7OqmLMuIMvK4ICUz";
 
-$access_token_url = '';
+$access_token_url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
 $headers = [''];
 $curl = curl_init($access_token_url);
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
