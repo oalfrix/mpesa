@@ -1,6 +1,6 @@
 <?php
 
-$consumerKey = "";
+$consumerKey = "GaAZ3U19yYVdInPkI4xf1oJerANxK0k1WXMIXcbACALvw0qJ";
 $consumerSecret = "";
 
 $access_token_url = '';
